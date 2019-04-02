@@ -12,6 +12,7 @@ class CreateCostumes < ActiveRecord::Migration
   
   def change
     create_table :costumes do |c|
+      c.text :name
       
     end
   end
