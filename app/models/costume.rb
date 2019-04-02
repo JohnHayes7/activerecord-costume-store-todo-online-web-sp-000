@@ -10,5 +10,6 @@ class Costume < ActiveRecord::Base
       c.text :size
       c.text :image_url
       c.timestamps
+    end
   
 end
