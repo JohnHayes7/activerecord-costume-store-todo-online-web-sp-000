@@ -10,4 +10,10 @@
 
 class CreateCostumes < ActiveRecord::Migration
   
+  def change
+    create_table :costumes do |c|
+      
+    end
+  end
+  
 end
