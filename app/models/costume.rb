@@ -9,6 +9,6 @@ class Costume < ActiveRecord::Base
       c.integer :price
       c.text :size
       c.text :image_url
-      c.timestamp
+      c.timestamps
   
 end
